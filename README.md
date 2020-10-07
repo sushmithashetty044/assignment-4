@@ -1,0 +1,2 @@
+# assignment-4
+Design the HTML page for creation of a CRM (Customer Relations Management) using semantic HTML5 tags and define external CSS file.  Hint: Notice the backgrounds for each of the section headers. Use attribute selectors for the mail and telephone link icons as shown below: a[href^="mailto"] { background: url(images/email.png) no-repeat 0 3px; padding-left: 1em; } a[href^="tel"] { background: url(images/call.png) no-repeat 0 3px; padding-left: 1em; }
