@@ -1,0 +1,145 @@
+﻿body {
+  background: url(../images/ed_hack/main_tile.jpg);
+}
+ul li {
+  display: inline-block;
+}
+nav, h1 {
+  padding: 0 10%;
+}
+footer {
+  background-color: #28324B;
+  border: 1px solid black;
+  margin: 1em 10% 2em 10%;
+}
+#copyright {
+  color: white;
+  margin-top: -1em;
+  font-family: sans-serif;
+}
+h1, h3 {
+  background: url(../images/ed_hack/head_tile.jpg);
+  color: white;
+  font-family: sans-serif;
+}
+h3 {
+  padding: 1em;
+}
+article {
+  margin: 1em 10%;
+}
+section {
+  border: 1px solid black;
+  margin: 1em 0;
+  background-color: white;
+}
+em {
+  color: darkgray;
+}
+p {
+  margin: 1em;
+  font-family: fantasy;
+}
+div.actions {
+  background-color: #28324B;
+  padding: 0.25em;
+}
+div.actions li {
+  background-color: #EEEEEE;
+  padding: 2px;
+  padding-left: 0.5em;
+  padding-right: 1em;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+  border-radius: 5px;
+  margin: 0.25em;
+}
+article > div {
+  background: white;
+  padding: 1em;
+  margin: 1em 0;
+  font-family: Tahcoma, monospace;
+  text-align: center;
+}
+div > img {
+  border: 1px solid black;
+  padding: 0.5em;
+}
+figure > img {
+  width: 100%;
+}
+#mainMenu {
+  background-color: #28324B;
+  text-align: right;
+  padding: 0.25em 10%;
+  padding-right: calc(10% - 2em);
+}
+#mainMenu a {
+  margin-right: 0.5em;
+}
+#secondaryMenu {
+  background-color: #DCDCE6;
+  padding-top: 0.5em;
+  padding-bottom: 0.25em;
+}
+#secondaryMenu a {
+  margin-right: 1em;
+}
+a {
+  color: #6190FF;
+  font-family: sans-serif;
+}
+a[href^="mailto"] {
+  background: url(../images/email.png) no-repeat 0 3px;
+  padding-left: 1em;
+}
+/*a[href^="mailto"]::before {
+  display: inline-block;
+  position: relative;
+  top: 3px;
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  content: "";
+  background: url(../images/ed_hack/mail_icon.jpg) no-repeat 0 0;
+  background-size: 100%;
+}*/
+a[href^="tel"] {
+  background: url(../images/call.png) no-repeat 0 3px;
+  padding-left: 1em;
+}
+/*a[href^="tel"]::before {
+  display: inline-block;
+  position: relative;
+  top: 3px;
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  content: "";
+  background: url(../images/ed_hack/bell_icon.jpg) no-repeat 0 0;
+  background-size: 100%;
+}*/
+a.actionEdit::before {
+  display: inline-block;
+  position: relative;
+  top: 3px;
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  content: "";
+  background: url(../images/ed_hack/edit_icon.jpg) no-repeat 0 0;
+  background-size: 100%;
+}
+a.actionFlag::before {
+  display: inline-block;
+  position: relative;
+  top: 3px;
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  content: "";
+  background: url(../images/ed_hack/flag_icon.jpg) no-repeat 0 0;
+  background-size: 100%;
+}
